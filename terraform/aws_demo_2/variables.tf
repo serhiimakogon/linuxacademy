@@ -39,3 +39,15 @@ variable "main_admin_cidr" {
   type        = string
   default     = ""
 }
+
+variable "instance_type" {
+  description = "Instance type for k8s nodes"
+  type        = string
+  default     = ""
+}
+
+variable "key_pair_name" {
+  description = "Key pair name for k8s nodes"
+  type        = string
+  default     = ""
+}
